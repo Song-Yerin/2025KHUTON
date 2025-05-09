@@ -1,25 +1,70 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
 public class CuratorTrigger : MonoBehaviour
 {
-    public RobotCurator robot;
+    public Transform player;
+    public GameObject ePromptUI;
+    public GameObject dialogueUI;
+    public TMP_InputField inputField;
 
+    public float showDistance = 5f;
 
-    void OnTriggerStay(Collider other)
+    private bool isPromptShown = false;
+    private bool isDialogueOpen = false;
+
+    void Update()
     {
-        if (other.CompareTag("Player"))
+        float distance = Vector3.Distance(transform.position, player.position);
+
+        if (distance <= showDistance)
         {
-            Debug.Log("트리거 안에 플레이어 있음");
+            if (!isPromptShown)
+            {
+                ePromptUI.SetActive(true);
+                isPromptShown = true;
+            }
 
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Debug.Log("E 키 눌림!");
-                robot.Interact();
+                ToggleDialogue();
             }
-            else if (Input.GetKey(KeyCode.E))
+        }
+        else
+        {
+            if (isPromptShown)
             {
-                Debug.Log("...E 키 누르고는 있음");  // 눌고만 있어도 찍힘
+                ePromptUI.SetActive(false);
+                isPromptShown = false;
+            }
+
+            if (isDialogueOpen)
+            {
+                dialogueUI.SetActive(false);
+                isDialogueOpen = false;
             }
         }
     }
+
+    void ToggleDialogue()
+    {
+        isDialogueOpen = !isDialogueOpen;
+        dialogueUI.SetActive(isDialogueOpen);
+
+        if (isDialogueOpen)
+        {
+            inputField.text = "";
+            StartCoroutine(DelayFocus()); // 여기에 직접 넣는다
+        }
+    }
+
+    IEnumerator DelayFocus()
+    {
+        yield return null;
+        inputField.Select();
+        inputField.ActivateInputField();
+    }
+
 }

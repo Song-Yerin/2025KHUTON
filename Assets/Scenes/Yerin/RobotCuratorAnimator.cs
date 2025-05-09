@@ -18,4 +18,17 @@ public class RobotCuratorAnimator : MonoBehaviour
             timer = 0f;
         }
     }
+    void LateUpdate()
+    {
+        Vector3 direction = player.position - transform.position;
+        direction.y = 0f; // 위아래 회전 제거 (Y축 고정)
+
+        if (direction.magnitude > 0.1f)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
+        }
+    }
+
+
 }

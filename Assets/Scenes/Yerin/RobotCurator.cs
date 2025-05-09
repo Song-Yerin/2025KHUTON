@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using System.Collections;
 
 public class RobotCurator : MonoBehaviour
 {
@@ -29,6 +30,19 @@ public class RobotCurator : MonoBehaviour
     {
         bool isActive = dialogueUI.activeSelf;
         dialogueUI.SetActive(!isActive);
+
+        if (!isActive)
+        {
+            inputField.text = "";
+            StartCoroutine(DelayFocus()); // 1프레임 뒤에 커서 활성화
+        }
+    }
+
+    private IEnumerator DelayFocus()
+    {
+        yield return null; // 한 프레임 기다림
+        inputField.Select();
+        inputField.ActivateInputField();
     }
 
     public void SubmitQuestion()
