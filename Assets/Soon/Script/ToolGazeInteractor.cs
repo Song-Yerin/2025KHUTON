@@ -1,6 +1,7 @@
 using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class ToolGazeInteractor : MonoBehaviour
@@ -18,6 +19,7 @@ public class ToolGazeInteractor : MonoBehaviour
 
     private void Start()
     {
+
     }
     void Update()
     {
@@ -36,7 +38,7 @@ public class ToolGazeInteractor : MonoBehaviour
                 if (currentTool != hit.collider.GetComponent<Interactable>())
                 {
                     currentTool = hit.collider.GetComponent<Interactable>();
-                    currentTool.EnableOutline();
+                    //currentTool.EnableOutline();
                     Debug.Log("Can F");
                     //UIManager.ShowPrompt("자세히 보기 (E)");
                 }
@@ -46,7 +48,6 @@ public class ToolGazeInteractor : MonoBehaviour
         // 중앙에 아무것도 없거나, 태그가 다르면
         if (currentTool != null)
         {
-            currentTool.DisableOutline();
             currentTool = null;           
             //UIManager.HidePrompt();
         }
@@ -62,6 +63,7 @@ public class ToolGazeInteractor : MonoBehaviour
 
     void EnterDetailView(Interactable tool)
     {
+
         foreach (var t in allTools)
         {
             if (t != tool)
@@ -80,6 +82,9 @@ public class ToolGazeInteractor : MonoBehaviour
 
 
         // 이후 기존에 하던 툴 이동·스케일 세팅, UI 전환 로직…
+        var draggable = tool.GetComponent<DraggableTool>();
+        if (draggable != null)
+            draggable.EnableDetailMode();
     }
 
     void ExitDetailView(Interactable tool)

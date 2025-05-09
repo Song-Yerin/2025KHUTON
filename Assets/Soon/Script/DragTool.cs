@@ -32,8 +32,8 @@ public class DraggableTool : MonoBehaviour
             float dx = Input.GetAxis("Mouse X") * rotateSpeed * Time.deltaTime;
             float dy = Input.GetAxis("Mouse Y") * rotateSpeed * Time.deltaTime;
             // 카메라의 Up/Right 축 기준으로 돌리기
-            transform.Rotate(Camera.main.transform.up, -dx, Space.World);
-            transform.Rotate(Camera.main.transform.right, dy, Space.World);
+            transform.localRotation =
+                           Quaternion.Euler(dy, -dx, 0) * transform.localRotation;
         }
 
         // 2) 스크롤로 확대/축소
