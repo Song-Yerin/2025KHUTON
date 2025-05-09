@@ -101,26 +101,6 @@ public class RobotFollower : MonoBehaviour
         currentState = newState;
     }
 
-    void PlayFootstepSound(AudioClip clip)
-    {
-        if (audioSource.clip != clip)
-        {
-            audioSource.clip = clip;
-            audioSource.loop = true;
-            audioSource.Play();
-        }
-        else if (!audioSource.isPlaying)
-        {
-            audioSource.Play();
-        }
-    }
-
-    void StopFootstepSound()
-    {
-        if (audioSource.isPlaying)
-        {
-            audioSource.Stop();
-        }
-    }
+ 
 }
 

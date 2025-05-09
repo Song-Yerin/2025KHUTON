@@ -3,6 +3,7 @@ using UnityEngine.Networking;
 using TMPro;
 using System.Collections;
 using System;
+using UnityEngine.Video;
 
 [Serializable]
 public class APIKeyData
@@ -16,7 +17,12 @@ public class ChatGPTConnector : MonoBehaviour
     public TextMeshProUGUI responseText;
     public string apiKey; // 이건 디버깅용
 
-
+    public GameObject robot;
+    private RobotVideoController robotVideoController;
+    void Start()
+    {
+        robotVideoController = robot.GetComponent<RobotVideoController>();
+    }
     void Awake()
     {
         Debug.Log("Awake() 실행됨");
@@ -91,6 +97,21 @@ public class ChatGPTConnector : MonoBehaviour
         }
 
         isWaitingForResponse = false;
+
+        /*void HandleResponse(string response)
+        {
+            responseText.text = response;
+
+            if (response.Contains("호미영상"))
+            {
+                robotVideoController.PlayVideo();
+            }
+            else if (response.Contains("영상꺼줘"))
+            {
+                robotVideoController.StopVideo();
+            }
+
+        }*/
     }
 
 
