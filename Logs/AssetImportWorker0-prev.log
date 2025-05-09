@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 15557 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 32387 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kimsueun/Documents/GitHub/2025KHUTON
+D:/Github/2025KHUTON
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52748
-Successfully changed project path to: C:/Users/kimsueun/Documents/GitHub/2025KHUTON
-C:/Users/kimsueun/Documents/GitHub/2025KHUTON
+50921
+Successfully changed project path to: D:/Github/2025KHUTON
+D:/Github/2025KHUTON
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,68 @@ C:/Users/kimsueun/Documents/GitHub/2025KHUTON
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3032] Host "[IP] 26.34.84.42 [Port] 0 [Flags] 2 [Guid] 1107496596 [EditorId] 1107496596 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RJ9HUF7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [85184] Host "[IP] 172.21.21.33 [Port] 0 [Flags] 2 [Guid] 1506738396 [EditorId] 1506738396 [Version] 1048832 [Id] WindowsEditor(7,dojiseon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3032] Host "[IP] 26.34.84.42 [Port] 0 [Flags] 2 [Guid] 1107496596 [EditorId] 1107496596 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RJ9HUF7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [85184] Host "[IP] 172.21.21.33 [Port] 0 [Flags] 2 [Guid] 1506738396 [EditorId] 1506738396 [Version] 1048832 [Id] WindowsEditor(7,dojiseon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 27.51 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 16.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kimsueun/Documents/GitHub/2025KHUTON/Assets
+[Subsystems] Discovering subsystems at path D:/Github/2025KHUTON/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
     Vendor:   NVIDIA
-    VRAM:     5996 MB
-    Driver:   31.0.15.5178
+    VRAM:     7957 MB
+    Driver:   32.0.15.5597
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.027466 seconds.
-- Loaded All Assemblies, in  0.810 seconds
+Registered in 0.031693 seconds.
+- Loaded All Assemblies, in  0.963 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1504 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.615 seconds
-Domain Reload Profiling: 1417ms
-	BeginReloadAssembly (270ms)
+- Finished resetting the current domain, in  2.280 seconds
+Domain Reload Profiling: 3234ms
+	BeginReloadAssembly (317ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (74ms)
+	RebuildCommonClasses (88ms)
 	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (149ms)
-	LoadAllAssembliesAndSetupDomain (283ms)
-		LoadAssemblies (261ms)
+	initialDomainReloadingComplete (165ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (312ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (277ms)
-				TypeCache.ScanAssembly (250ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (348ms)
+				TypeCache.ScanAssembly (318ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (615ms)
+	FinalizeReload (2281ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (484ms)
+		SetupLoadedEditorAssemblies (2154ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (17ms)
+			InitializePlatformSupportModulesInManaged (1770ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (311ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,54 +118,56 @@ Domain Reload Profiling: 1417ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.400 seconds
-Refreshing native plugins compatible for Editor in 9.46 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.395 seconds
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.204 seconds
-Domain Reload Profiling: 2592ms
-	BeginReloadAssembly (333ms)
+- Finished resetting the current domain, in  1.336 seconds
+Domain Reload Profiling: 2726ms
+	BeginReloadAssembly (356ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (854ms)
-		LoadAssemblies (684ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (831ms)
+		LoadAssemblies (669ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (378ms)
-			TypeCache.Refresh (336ms)
-				TypeCache.ScanAssembly (314ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1204ms)
+		AnalyzeDomain (400ms)
+			TypeCache.Refresh (351ms)
+				TypeCache.ScanAssembly (316ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1337ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (874ms)
+		SetupLoadedEditorAssemblies (964ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (639ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (27ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (690ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 10.01 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 6.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (56.9 KB). Loaded Objects now: 3596.
-Memory consumption went from 124.5 MB to 124.4 MB.
-Total: 6.268800 ms (FindLiveObjects: 0.454900 ms CreateObjectMapping: 0.302900 ms MarkObjects: 5.309100 ms  DeleteObjects: 0.200300 ms)
+Unloading 3210 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3675.
+Memory consumption went from 139.9 MB to 139.9 MB.
+Total: 5.888000 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.122100 ms MarkObjects: 5.238500 ms  DeleteObjects: 0.199800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -176,270 +181,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1661.870345 seconds.
-  path: Assets/hintze-hall/source
-  artifactKey: Guid(c979646ba9745ea4f999219ef3feb1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hintze-hall/source using Guid(c979646ba9745ea4f999219ef3feb1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87464170c8959c385c24bda95ad1be6a') in 0.004014 seconds
+  Time since last request: 251753.084071 seconds.
+  path: Assets/resources
+  artifactKey: Guid(464bebe013ed80a4b84e63e9344ef655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resources using Guid(464bebe013ed80a4b84e63e9344ef655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bfcdc4638778d8a4b7712f13f78cc8') in 0.008292 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.916741 seconds.
-  path: Assets/hintze-hall/source/NHMHintzeHall01
-  artifactKey: Guid(15d52a69271c99d478cedf248c6a0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hintze-hall/source/NHMHintzeHall01 using Guid(15d52a69271c99d478cedf248c6a0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504eae0874acd85102d9e07378d1b54d') in 0.000549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.057475 seconds.
-  path: Assets/hintze-hall/source/NHMHintzeHall01/NHMHintzeHall01.obj
-  artifactKey: Guid(ab72c667a5cf5394488971b51bc33b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hintze-hall/source/NHMHintzeHall01/NHMHintzeHall01.obj using Guid(ab72c667a5cf5394488971b51bc33b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a8a12ad015c638fdffe1a87c234515') in 1.056976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 6.426599 seconds.
-  path: Assets/hintze-hall/source/NHMHintzeHall01/NHMHintzeHall01.mtl
-  artifactKey: Guid(0aefc596b45cebb4895905131b794792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hintze-hall/source/NHMHintzeHall01/NHMHintzeHall01.mtl using Guid(0aefc596b45cebb4895905131b794792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e18684d8fd064f02f4d8a52605839e') in 0.001404 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Jiseon/yellow.mat
+  artifactKey: Guid(c6389b9c92a7e7e4db95a2dd5b79545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jiseon/yellow.mat using Guid(c6389b9c92a7e7e4db95a2dd5b79545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647b641315123aa79b2a5aba3f969df0') in 0.212646 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Import Request.
-  Time since last request: 131.124089 seconds.
-  path: Assets/hintze-hall/source/NHMHintzeHall01/New Material.mat
-  artifactKey: Guid(a7bc7cb326757164a84338394f0fb06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hintze-hall/source/NHMHintzeHall01/New Material.mat using Guid(a7bc7cb326757164a84338394f0fb06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1edc43c41b3937cf912499650c2d0c5') in 0.021745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.031474 seconds.
-  path: Assets/hintze-hall/textures/NHMHintzeHall02_Model_9_u1_v1_diffuse.jpeg
-  artifactKey: Guid(4a5102c86d07ee646b22ea4b0169b84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hintze-hall/textures/NHMHintzeHall02_Model_9_u1_v1_diffuse.jpeg using Guid(4a5102c86d07ee646b22ea4b0169b84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca1696156ecc112c646829662048376') in 0.067093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Brick_2_BC.png
-  artifactKey: Guid(abc00000000011783315914285609869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Brick_2_BC.png using Guid(abc00000000011783315914285609869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b4a96defda73f8fea3e8950d6da1fb') in 0.041985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_1_ORG_N.png
-  artifactKey: Guid(abc00000000006848638013246747120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_1_ORG_N.png using Guid(abc00000000006848638013246747120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e6a3c095042c4e264d5d42a2c0be09') in 0.082066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_2_Pebble_AO.png
-  artifactKey: Guid(abc00000000010941947406915186051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_2_Pebble_AO.png using Guid(abc00000000010941947406915186051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5df6ed3406e793b1b95a30ebdeecb63') in 0.062227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_3_Pebble_BC.png
-  artifactKey: Guid(abc00000000017424410701073628855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_3_Pebble_BC.png using Guid(abc00000000017424410701073628855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edeb6afd6112b1a3d5a7306d8a42259') in 0.039438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_BrightMarble_N.png
-  artifactKey: Guid(abc00000000004978865154410896891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_BrightMarble_N.png using Guid(abc00000000004978865154410896891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff496b92717f4d318ae1665e14395cd') in 0.031714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_1_ORG_R.png
-  artifactKey: Guid(abc00000000005123003079147214116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_1_ORG_R.png using Guid(abc00000000005123003079147214116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bcd1a3af64d5e74b78f8baddbc6f6b') in 0.036822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Brick_2_R.png
-  artifactKey: Guid(abc00000000001524115986521727306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Brick_2_R.png using Guid(abc00000000001524115986521727306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aea932a944130bea8ab0e35126cd039') in 0.051889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Brass_2_PatternTile_AO.png
-  artifactKey: Guid(abc00000000004939571028930680825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Brass_2_PatternTile_AO.png using Guid(abc00000000004939571028930680825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bbacdedd0bf5e58de1addabec4dd55') in 0.058206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_5_Granite_AO.png
-  artifactKey: Guid(abc00000000017735606691907313400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_5_Granite_AO.png using Guid(abc00000000017735606691907313400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfd2d9fea6bfb4b12ed6d4c1a597ef3') in 0.054127 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_6_GraniteTile_AO.png
-  artifactKey: Guid(abc00000000005943941271009205991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_6_GraniteTile_AO.png using Guid(abc00000000005943941271009205991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722e247a2788f05cf4925af584b2edc1') in 0.056741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_3_Pebble_R.png
-  artifactKey: Guid(abc00000000012097992308599036204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_3_Pebble_R.png using Guid(abc00000000012097992308599036204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c77ff6566cb04d61e5edc38935c59') in 0.053551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_3_Pebble_AO.png
-  artifactKey: Guid(abc00000000004168957741096958216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_3_Pebble_AO.png using Guid(abc00000000004168957741096958216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58738aa49ccd4666c8ba89980c6017ae') in 0.049980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_1_ORG_BC.png
-  artifactKey: Guid(abc00000000018037735911412907167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_1_ORG_BC.png using Guid(abc00000000018037735911412907167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c2da0f6f3c55f205146bac95cecdc6') in 0.030865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Brick_2_AO.png
-  artifactKey: Guid(abc00000000010988327502756834130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Brick_2_AO.png using Guid(abc00000000010988327502756834130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9e72aa7a2325f3371396b16592b1fd') in 0.051117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Brass_2_PatternTile_M.png
-  artifactKey: Guid(abc00000000001138134621289390790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Brass_2_PatternTile_M.png using Guid(abc00000000001138134621289390790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11880fd34090fd337a7193f6bf195a90') in 0.052270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_6_GraniteTile_N.png
-  artifactKey: Guid(abc00000000013041399552974503981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_6_GraniteTile_N.png using Guid(abc00000000013041399552974503981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4543405080147b5b1c48d0f0874fad') in 0.053329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_5_Tile_N.png
-  artifactKey: Guid(abc00000000008480478104752783270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_5_Tile_N.png using Guid(abc00000000008480478104752783270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2930a301b822e59679ca048c3cef5b8a') in 0.028880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Brick_N.png
-  artifactKey: Guid(abc00000000002747785401554466907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Brick_N.png using Guid(abc00000000002747785401554466907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7409081bdb371115affe141b3fab5be6') in 0.055663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_5_Granite_BC.png
-  artifactKey: Guid(abc00000000006411606852196100519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_5_Granite_BC.png using Guid(abc00000000006411606852196100519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4261f9a50cf578e91d6e92f5ae7cb7') in 0.035845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_5_Granite_R.png
-  artifactKey: Guid(abc00000000014153519951167012956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_5_Granite_R.png using Guid(abc00000000014153519951167012956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdd1ca71570409a41fbc04fe4da369f') in 0.047902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_6_GraniteTile_R.png
-  artifactKey: Guid(abc00000000002538064514967051577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_6_GraniteTile_R.png using Guid(abc00000000002538064514967051577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012dae78779bb1ea3531cf0299adc52a') in 0.054560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Brass_2_PatternTile_N.png
-  artifactKey: Guid(abc00000000003596240144711166579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Brass_2_PatternTile_N.png using Guid(abc00000000003596240144711166579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba8372a0c847cfa6508c75e7c0fd515') in 0.054070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Brass_1_AO.png
-  artifactKey: Guid(abc00000000005460168709408465765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Brass_1_AO.png using Guid(abc00000000005460168709408465765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825f05a95856f3d4ca01a46a07217046') in 0.027645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_5_Granite_N.png
-  artifactKey: Guid(abc00000000010491170954368147128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_5_Granite_N.png using Guid(abc00000000010491170954368147128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a143335e41910828066f1fa8b563598') in 0.057307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_BrightMarble_BC.png
-  artifactKey: Guid(abc00000000014711495879225117206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_BrightMarble_BC.png using Guid(abc00000000014711495879225117206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1d45c8921f82d0dbd45023e0ce57be') in 0.037594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_4_Tile_BC.png
-  artifactKey: Guid(abc00000000000113997100429967478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_4_Tile_BC.png using Guid(abc00000000000113997100429967478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2d60dfbbbdddeb2bdfce14d1dd02ff') in 0.034496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CultureSeoulStation284/Textures/T_Concrete_4_Tile_R.png
-  artifactKey: Guid(abc00000000014594141860115849951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CultureSeoulStation284/Textures/T_Concrete_4_Tile_R.png using Guid(abc00000000014594141860115849951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16c4bc02a8c7c9b3dff6440f354cac0') in 0.055956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.059 seconds
+Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.037 seconds
+Domain Reload Profiling: 3086ms
+	BeginReloadAssembly (385ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (687ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2038ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (603ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3190 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.2 KB). Loaded Objects now: 3720.
+Memory consumption went from 136.9 MB to 136.9 MB.
+Total: 5.057000 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.128200 ms MarkObjects: 4.495100 ms  DeleteObjects: 0.107800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -1,17 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\",
+  "WorkspaceRootPath": "D:\\Github\\2025KHUTON\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\assets\\scenes\\yerin\\chatgptconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\jiseon_scripts\\wheelrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\jiseon_scripts\\wheelrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|D:\\Github\\2025KHUTON\\assets\\jiseon\\jiseon_scripts\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\jiseon_scripts\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|D:\\Github\\2025KHUTON\\assets\\camerarotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\camerarotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|D:\\Github\\2025KHUTON\\assets\\jiseon\\jiseon_scripts\\seasontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\jiseon_scripts\\seasontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|D:\\Github\\2025KHUTON\\assets\\scenes\\yerin\\chatgptconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\yerin\\chatgptconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|c:\\users\\songyerin\\documents\\github\\2025khuton\\assets\\scenes\\yerin\\robotcurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|D:\\Github\\2025KHUTON\\assets\\scenes\\yerin\\robotcurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\yerin\\robotcurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\assets\\scenes\\yerin\\curatortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|D:\\Github\\2025KHUTON\\assets\\scenes\\yerin\\curatortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\yerin\\curatortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,23 +43,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChatGPTConnector.cs",
-              "DocumentMoniker": "C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
-              "ToolTip": "C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
-              "RelativeToolTip": "Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wCMAAAAFAAAAAAAAAA==",
+              "Title": "WheelRotator.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
+              "RelativeDocumentMoniker": "Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
+              "RelativeToolTip": "Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T10:37:06.248Z",
+              "WhenOpened": "2025-05-09T11:39:46.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cam.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\cam.cs",
+              "RelativeDocumentMoniker": "Assets\\Jiseon\\jiseon_Scripts\\cam.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\cam.cs",
+              "RelativeToolTip": "Assets\\Jiseon\\jiseon_Scripts\\cam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T11:36:11.243Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CameraRotation.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\CameraRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraRotation.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\CameraRotation.cs",
+              "RelativeToolTip": "Assets\\CameraRotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T11:33:27.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeasonTrigger.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\SeasonTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Jiseon\\jiseon_Scripts\\SeasonTrigger.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\SeasonTrigger.cs",
+              "RelativeToolTip": "Assets\\Jiseon\\jiseon_Scripts\\SeasonTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T11:29:22.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatGPTConnector.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T10:37:06.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CuratorTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\Assets\\Scenes\\Yerin\\CuratorTrigger.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\CuratorTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Yerin\\CuratorTrigger.cs",
-              "ToolTip": "C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\Assets\\Scenes\\Yerin\\CuratorTrigger.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\CuratorTrigger.cs",
               "RelativeToolTip": "Assets\\Scenes\\Yerin\\CuratorTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,16 +115,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RobotCurator.cs",
-              "DocumentMoniker": "C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\Assets\\Scenes\\Yerin\\RobotCurator.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\RobotCurator.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Yerin\\RobotCurator.cs",
-              "ToolTip": "C:\\Users\\songyerin\\Documents\\GitHub\\2025KHUTON\\Assets\\Scenes\\Yerin\\RobotCurator.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\RobotCurator.cs",
               "RelativeToolTip": "Assets\\Scenes\\Yerin\\RobotCurator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T10:36:26.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T10:36:26.949Z"
             }
           ]
         }
