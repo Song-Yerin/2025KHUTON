@@ -33,13 +33,27 @@ public class CuratorTrigger : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // 씬이 바뀌면 플레이어 다시 연결
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        StartCoroutine(DelayedFindPlayer());
+    }
+
+    IEnumerator DelayedFindPlayer()
+    {
+        yield return null; // 한 프레임 기다리기
+        GameObject found = GameObject.FindGameObjectWithTag("Player");
+        if (found != null)
+        {
+            player = found.transform;
+            Debug.Log("[CuratorTrigger] 플레이어 재연결 완료: " + player.name);
+        }
+        else
+        {
+            Debug.LogWarning(" [CuratorTrigger] 플레이어를 찾지 못했습니다.");
+        }
     }
 
     void Update()
     {
-        if (player == null || ePromptUI == null) return;
+        if (player == null || ePromptUI == null || dialogueUI == null) return;
 
         float distance = Vector3.Distance(transform.position, player.position);
 

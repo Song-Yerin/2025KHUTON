@@ -48,10 +48,19 @@ public class ChatGPTConnector : MonoBehaviour
 
     private bool isWaitingForResponse = false;
 
+
     public void SendToChatGPT()
     {
         if (isWaitingForResponse) return;
         string prompt = userInput.text;
+
+        
+        if (prompt.Contains("호미영상"))
+        {
+            responseText.text = ""; // 응답 안 보이게
+            return; // 
+        }
+
         StartCoroutine(SendRequest(prompt));
     }
 

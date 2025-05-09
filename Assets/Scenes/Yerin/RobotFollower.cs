@@ -33,12 +33,27 @@ public class RobotFollower : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // 씬이 바뀌면 플레이어 다시 연결
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        StartCoroutine(DelayedFindPlayer());
     }
+    IEnumerator DelayedFindPlayer()
+    {
+        yield return null; // 한 프레임 기다림
+        GameObject found = GameObject.FindGameObjectWithTag("Player");
 
+        if (found != null)
+        {
+            player = found.transform;
+            Debug.Log("로봇: 플레이어 다시 찾음 → " + player.name);
+        }
+        else
+        {
+            Debug.LogWarning(" 로봇: 플레이어 못 찾음");
+        }
+    }
     void Update()
     {
+        if (player == null) return; 
+
         float distance = Vector3.Distance(transform.position, player.position);
 
         if (distance > followStartDistance)

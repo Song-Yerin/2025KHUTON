@@ -56,6 +56,22 @@ public class RobotCurator : MonoBehaviour
         inputField.ActivateInputField();  // 커서 다시 활성화 (선택)
     }
 
+    public void OnPlayerMessage(string message)
+    {
+        // "호미영상"이라는 말이 포함되면 영상만 재생하고 아무 응답도 하지 않음
+        if (message.Contains("호미영상"))
+        {
 
+            if (dialogueUI != null)
+            {
+                dialogueUI.SetActive(false);    // 대화창 닫기
+            }
+
+            return; // GPT 응답 생략 (로봇은 말 안 함)
+        }
+
+        // 평소처럼 GPT 응답 처리
+        //StartCoroutine(SendMessageToGPT(message));
+    }
 
 }
