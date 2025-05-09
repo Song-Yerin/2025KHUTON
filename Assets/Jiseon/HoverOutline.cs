@@ -1,18 +1,24 @@
 using UnityEngine;
+
 [RequireComponent(typeof(BoxCollider), typeof(Renderer))]
 public class RaycastHoverTest : MonoBehaviour
 {
     public Color hoverColor = Color.yellow;
     public Color clickColor = Color.red;
+    public GameObject uiCanvas;
 
     private Renderer rend;
     private Color originalColor;
     private bool isHovered = false;
+    private bool uiActive = false;
 
     void Start()
     {
         rend = GetComponent<Renderer>();
         originalColor = rend.material.color;
+
+        if (uiCanvas != null)
+            uiCanvas.SetActive(false);
     }
 
     void Update()
@@ -20,7 +26,6 @@ public class RaycastHoverTest : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        // 레이캐스트로 마우스가 이 오브젝트 위에 있는지 체크
         if (Physics.Raycast(ray, out hit))
         {
             if (hit.collider.gameObject == gameObject)
@@ -31,21 +36,40 @@ public class RaycastHoverTest : MonoBehaviour
                     isHovered = true;
                 }
 
-                // 클릭 시 색상 변경
-                if (Input.GetMouseButtonDown(0)) // 좌클릭
+                if (Input.GetMouseButtonDown(0))
                 {
                     rend.material.color = clickColor;
+
+                    if (uiCanvas != null)
+                    {
+                        uiCanvas.SetActive(true);
+                        uiActive = true;
+
+                        // 지역 이름에 따라 데이터 채우기
+                        string regionName = gameObject.name;
+                        var panelUpdater = uiCanvas.GetComponent<RegionInfoPanel>();
+                        if (panelUpdater != null)
+                            panelUpdater.SetRegionData(regionName);
+                    }
                 }
 
                 return;
             }
         }
 
-        // 마우스가 벗어나면 원래 색으로
         if (isHovered)
         {
             rend.material.color = originalColor;
             isHovered = false;
+        }
+
+        if (uiActive && Input.GetKeyDown(KeyCode.Z))
+        {
+            if (uiCanvas != null)
+            {
+                uiCanvas.SetActive(false);
+                uiActive = false;
+            }
         }
     }
 }
