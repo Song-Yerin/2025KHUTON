@@ -1,0 +1,473 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'ko' Physical Memory: 32612 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/songyerin/Documents/GitHub/2025KHUTON
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62436
+Successfully changed project path to: C:/Users/songyerin/Documents/GitHub/2025KHUTON
+C:/Users/songyerin/Documents/GitHub/2025KHUTON
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26196] Host "[IP] 119.194.31.229 [Port] 0 [Flags] 2 [Guid] 156724432 [EditorId] 156724432 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E6DIUDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26196] Host "[IP] 119.194.31.229 [Port] 0 [Flags] 2 [Guid] 156724432 [EditorId] 156724432 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E6DIUDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 6.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/songyerin/Documents/GitHub/2025KHUTON/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005614 seconds.
+- Loaded All Assemblies, in  0.221 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.167 seconds
+Domain Reload Profiling: 386ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (67ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (131ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.379 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 709ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.0 KB). Loaded Objects now: 3596.
+Memory consumption went from 125.0 MB to 125.0 MB.
+Total: 2.387300 ms (FindLiveObjects: 0.129400 ms CreateObjectMapping: 0.035700 ms MarkObjects: 2.031200 ms  DeleteObjects: 0.190300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 969763.462928 seconds.
+  path: Assets/CultureSeoulStation284/Scenes/Demo
+  artifactKey: Guid(dd57051757375eb409dbc13bf351589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Scenes/Demo using Guid(dd57051757375eb409dbc13bf351589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e5b05af30fad55a8137c02849757e5') in 0.001633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.921020 seconds.
+  path: Assets/CultureSeoulStation284/Materials
+  artifactKey: Guid(4dbbb06bf2799ef4d99c0f3b598fe609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials using Guid(4dbbb06bf2799ef4d99c0f3b598fe609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaca7d6810179bc08cd25cf5e80f0adc') in 0.000337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.944712 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Asphalt.mat
+  artifactKey: Guid(abc00000000014901339577737811608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Asphalt.mat using Guid(abc00000000014901339577737811608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ff98160fea2229ae1fb0fa16b7c227') in 0.153508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_DarkWood_3.mat
+  artifactKey: Guid(abc00000000008855924411160225996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_DarkWood_3.mat using Guid(abc00000000008855924411160225996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da79ef65bf07adf75e649cceefbbb547') in 0.050898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_DarkWood_1.mat
+  artifactKey: Guid(abc00000000011756866433131515394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_DarkWood_1.mat using Guid(abc00000000011756866433131515394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd971cc0f00e0ccef27a4933dbd7f075b') in 0.048691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_1.mat
+  artifactKey: Guid(abc00000000016393107416832912671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_1.mat using Guid(abc00000000016393107416832912671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a015f2e28562ad4541192a83f57f984') in 0.041094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_13.mat
+  artifactKey: Guid(abc00000000010237811146350123160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_13.mat using Guid(abc00000000010237811146350123160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903bf1ed5991b4d74220686427525084') in 0.024711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_7.mat
+  artifactKey: Guid(abc00000000007528527132711743515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_7.mat using Guid(abc00000000007528527132711743515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66b6ad9ca5bae0a4d6048b1fe6b749d') in 0.048807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_Pattern_5.mat
+  artifactKey: Guid(abc00000000014163654851447961830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_Pattern_5.mat using Guid(abc00000000014163654851447961830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97c998d5b9c31e549dc053e2e7d8997') in 0.013659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_6.mat
+  artifactKey: Guid(abc00000000001421523867330088764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_6.mat using Guid(abc00000000001421523867330088764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef7da71415f77e8321ec064801659e2') in 0.050296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_BrightMarble.mat
+  artifactKey: Guid(abc00000000008888558078874221722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_BrightMarble.mat using Guid(abc00000000008888558078874221722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ace2a321a8f11a3b3cd7e106f49e485') in 0.014473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_5.mat
+  artifactKey: Guid(abc00000000007103572870095558524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_5.mat using Guid(abc00000000007103572870095558524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2151e1746cdea76e298bc4328431e79') in 0.055155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_15.mat
+  artifactKey: Guid(abc00000000017286688429684868097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_15.mat using Guid(abc00000000017286688429684868097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a411fc528aa2a2fba63f6158c80b643') in 0.063012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Brick_2.mat
+  artifactKey: Guid(abc00000000001130758727336357628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Brick_2.mat using Guid(abc00000000001130758727336357628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5729445685fb787be859fd0cffd0ce') in 0.053791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_8.mat
+  artifactKey: Guid(abc00000000003042085956216540282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_8.mat using Guid(abc00000000003042085956216540282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380592673011513ee3c844bfd6c1dd92') in 0.057001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_18.mat
+  artifactKey: Guid(abc00000000011750654639514185611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_18.mat using Guid(abc00000000011750654639514185611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f866385a485252440a6e4a197ea8e6') in 0.022662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_BlackSteel.mat
+  artifactKey: Guid(abc00000000001145430891539193946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_BlackSteel.mat using Guid(abc00000000001145430891539193946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f01eb74931396bf8c3be4f126147a9') in 0.012940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Clock.mat
+  artifactKey: Guid(abc00000000015683670309723887879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Clock.mat using Guid(abc00000000015683670309723887879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8857cb74316d9293f85871adf3a05656') in 0.007840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Brick_1.mat
+  artifactKey: Guid(abc00000000008006323483949477468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Brick_1.mat using Guid(abc00000000008006323483949477468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e771bccc414bb7bc372c3a021035ca5e') in 0.029422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_Pattern_2.mat
+  artifactKey: Guid(abc00000000012193504725192533660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_Pattern_2.mat using Guid(abc00000000012193504725192533660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ce885a10b69a9d5da5f4d94f84a12a') in 0.028398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_3.mat
+  artifactKey: Guid(abc00000000005433634945360999184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_3.mat using Guid(abc00000000005433634945360999184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dce9e60faf847d52aadea86c3f18bc') in 0.065736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_2.mat
+  artifactKey: Guid(abc00000000013179514896912112680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_2.mat using Guid(abc00000000013179514896912112680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cafc1258a96db5807fb831d76336ed') in 0.049503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Concrete_Pattern_4.mat
+  artifactKey: Guid(abc00000000007642731609809354874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Concrete_Pattern_4.mat using Guid(abc00000000007642731609809354874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a3b76bc884e3d40fbe80deb67794c7') in 0.012512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Curtain_1.mat
+  artifactKey: Guid(abc00000000015658355654588670502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Curtain_1.mat using Guid(abc00000000015658355654588670502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b9d3214870c310274d032503cc56d3') in 0.004447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Carpet.mat
+  artifactKey: Guid(abc00000000010397118802546566526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Carpet.mat using Guid(abc00000000010397118802546566526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1b360625188454af81b00c85fd8ec8') in 0.043949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 51.835585 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Decal_2.mat
+  artifactKey: Guid(abc00000000017732345138096322518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Decal_2.mat using Guid(abc00000000017732345138096322518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677723978b262f0f6850f3ab48c4306e') in 0.022567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_GoldPattern_2.mat
+  artifactKey: Guid(abc00000000018167989453166622698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_GoldPattern_2.mat using Guid(abc00000000018167989453166622698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6ce2565b69b999f827138fda90db88') in 0.034099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Metal_1.mat
+  artifactKey: Guid(abc00000000005417385358595745832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Metal_1.mat using Guid(abc00000000005417385358595745832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808070c157cd07755c49dd1664a6a47f') in 0.007212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_GreyRoof_2.mat
+  artifactKey: Guid(abc00000000017158272404983361586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_GreyRoof_2.mat using Guid(abc00000000017158272404983361586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fe571dab839efec6ae78bd1fafd098') in 0.078293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Fireplace.mat
+  artifactKey: Guid(abc00000000011330537256642719385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Fireplace.mat using Guid(abc00000000011330537256642719385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392b46e1577950f1afecfe5f60cc4afd') in 0.022339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_GreenRoof_1.mat
+  artifactKey: Guid(abc00000000011116021185285647316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_GreenRoof_1.mat using Guid(abc00000000011116021185285647316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3985529bf2c30fb1329b33741fa1355b') in 0.031339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Grates.mat
+  artifactKey: Guid(abc00000000006992129768905333541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Grates.mat using Guid(abc00000000006992129768905333541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0bfb67e7f822f9860002b2c4dc7173') in 0.021414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.534044 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_RadiatorFence_1.mat
+  artifactKey: Guid(abc00000000005064036284662962885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_RadiatorFence_1.mat using Guid(abc00000000005064036284662962885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6910ff3c5e267d210123bdf9244d9e36') in 0.041203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Tile_3.mat
+  artifactKey: Guid(abc00000000014887700700299587835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Tile_3.mat using Guid(abc00000000014887700700299587835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7c696b7a870e02f22743acdaa869ca') in 0.106762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.201273 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Tile_8.mat
+  artifactKey: Guid(abc00000000008943203064221508524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Tile_8.mat using Guid(abc00000000008943203064221508524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc9ad8e5a47048f1c6f4023191fa9eb') in 0.036922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CultureSeoulStation284/Materials/MI_Wallpaper_1.mat
+  artifactKey: Guid(abc00000000018045482048090849830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CultureSeoulStation284/Materials/MI_Wallpaper_1.mat using Guid(abc00000000018045482048090849830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22ecec5d38fe0e6bac0e640f3aa3758') in 0.077639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
