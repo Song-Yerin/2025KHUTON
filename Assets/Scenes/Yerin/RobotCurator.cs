@@ -16,16 +16,16 @@ public class RobotCurator : MonoBehaviour
     }
     void Update()
     {
-        if (dialogueUI.activeSelf && Input.GetKeyDown(KeyCode.Return))
+        if (dialogueUI != null && dialogueUI.activeSelf && Input.GetKeyDown(KeyCode.Return))
         {
             SubmitQuestion();
         }
-        if (dialogueUI.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+
+        if (dialogueUI != null && dialogueUI.activeSelf && Input.GetKeyDown(KeyCode.Escape))
         {
             dialogueUI.SetActive(false);
         }
     }
-
     public void Interact()
     {
         bool isActive = dialogueUI.activeSelf;

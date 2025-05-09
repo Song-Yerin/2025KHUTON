@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 public class RobotFollower : MonoBehaviour
 {
     public Transform player;
@@ -16,6 +16,26 @@ public class RobotFollower : MonoBehaviour
     private Coroutine followCoroutine;
     private string currentState = "";
 
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // 씬이 바뀌면 플레이어 다시 연결
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+    }
 
     void Update()
     {

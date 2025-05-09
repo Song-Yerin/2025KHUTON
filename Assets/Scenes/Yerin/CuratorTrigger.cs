@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class CuratorTrigger : MonoBehaviour
 {
@@ -15,8 +16,31 @@ public class CuratorTrigger : MonoBehaviour
     private bool isPromptShown = false;
     private bool isDialogueOpen = false;
 
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // 씬이 바뀌면 플레이어 다시 연결
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+    }
+
     void Update()
     {
+        if (player == null || ePromptUI == null) return;
+
         float distance = Vector3.Distance(transform.position, player.position);
 
         if (distance <= showDistance)

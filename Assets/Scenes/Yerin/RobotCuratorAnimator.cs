@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RobotCuratorAnimator : MonoBehaviour
 {
@@ -7,6 +8,28 @@ public class RobotCuratorAnimator : MonoBehaviour
     public float updateRate = 0.1f;    // 거리 계산 주기 (초)
 
     private float timer = 0f;
+
+
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // 씬이 바뀌면 플레이어 다시 연결
+        player = GameObject.FindGameObjectWithTag("Player")?.transform;
+    }
 
     void Update()
     {
