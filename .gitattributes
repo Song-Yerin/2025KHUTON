@@ -1,1 +1,1 @@
-C:/Users/kimsueun/Documents/GitHub/2025KHUTON/Assets/hintze-hall/source/NHMHintzeHall01/NHMHintzeHall01.obj filter=lfs diff=lfs merge=lfs -text
+"*.obj" filter=lfs diff=lfs merge=lfs -text
