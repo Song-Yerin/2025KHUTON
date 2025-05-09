@@ -1848,7 +1848,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -1875,7 +1875,7 @@ Transform:
   m_GameObject: {fileID: 773972380}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.383, y: -0.006212249, z: 6.398}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4545,6 +4545,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f361e1730aa606c4c8b89cc38240d5cc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2108110575}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f361e1730aa606c4c8b89cc38240d5cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2108110580}
   m_SourcePrefab: {fileID: 100100000, guid: f361e1730aa606c4c8b89cc38240d5cc, type: 3}
 --- !u!1 &1926283575
 GameObject:
@@ -4923,6 +4926,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &2108110580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108110571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc77584b1bceb484092bc07a0f5f2ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdPosition: {x: 0.5, y: -0.5, z: 1}
+  holdEuler: {x: 0, y: 0, z: 0}
 --- !u!1 &2115950966
 GameObject:
   m_ObjectHideFlags: 0
