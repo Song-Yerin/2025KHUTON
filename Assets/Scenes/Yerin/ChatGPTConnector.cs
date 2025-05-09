@@ -71,11 +71,11 @@ public class ChatGPTConnector : MonoBehaviour
 
         // 직접 JSON 문자열 구성
         string jsonBody = @"{
-        ""model"": ""gpt-3.5-turbo"",
-        ""messages"": [
-            { ""role"": ""user"", ""content"": """ + prompt.Replace("\"", "\\\"") + @""" }
-        ]
-    }";
+    ""model"": ""gpt-4"",
+    ""messages"": [
+        { ""role"": ""user"", ""content"": """ + prompt.Replace("\"", "\\\"") + @""" }
+    ]
+}";
 
         UnityWebRequest request = new UnityWebRequest(apiUrl, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonBody);
