@@ -16,41 +16,51 @@ public class ChatGPTConnector : MonoBehaviour
     public TextMeshProUGUI responseText;
     public string apiKey; // 이건 디버깅용
 
+
     void Awake()
     {
+        Debug.Log("Awake() 실행됨");
         LoadApiKey();
     }
 
     void LoadApiKey()
     {
         TextAsset jsonFile = Resources.Load<TextAsset>("api_key");
+
         if (jsonFile != null)
         {
+            Debug.Log("JSON 로드됨: " + jsonFile.text);
             APIKeyData keyData = JsonUtility.FromJson<APIKeyData>(jsonFile.text);
             apiKey = keyData.openai_api_key;
+            Debug.Log("API 키: " + apiKey);
         }
         else
         {
-            Debug.LogError("API 키 파일(api_key.json)을 찾을 수 없습니다.");
+            Debug.LogError("api_key.json을 Resources 폴더에서 찾을 수 없음");
         }
     }
 
+    private bool isWaitingForResponse = false;
+
     public void SendToChatGPT()
     {
+        if (isWaitingForResponse) return;
         string prompt = userInput.text;
         StartCoroutine(SendRequest(prompt));
     }
 
     IEnumerator SendRequest(string prompt)
     {
+        isWaitingForResponse = true;
         string apiUrl = "https://api.openai.com/v1/chat/completions";
-        string jsonBody = JsonUtility.ToJson(new
-        {
-            model = "gpt-3.5-turbo",
-            messages = new[] {
-                new { role = "user", content = prompt }
-            }
-        });
+
+        // 직접 JSON 문자열 구성
+        string jsonBody = @"{
+        ""model"": ""gpt-3.5-turbo"",
+        ""messages"": [
+            { ""role"": ""user"", ""content"": """ + prompt.Replace("\"", "\\\"") + @""" }
+        ]
+    }";
 
         UnityWebRequest request = new UnityWebRequest(apiUrl, "POST");
         byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonBody);
@@ -65,16 +75,27 @@ public class ChatGPTConnector : MonoBehaviour
         if (request.result != UnityWebRequest.Result.Success)
         {
             Debug.LogError("Error: " + request.error);
+            Debug.LogError("Raw Response: " + request.downloadHandler.text);  // 디버깅용
+        }
+        else if (request.responseCode == 429)
+        {
+            // 너무 많은 요청 에러 처리
+            responseText.text = "요청이 너무 많아요. 잠시 후 다시 시도해주세요!";
+            Debug.LogWarning("429 Too Many Requests - Rate limit exceeded");
         }
         else
         {
-            string result = request.downloadHandler.text;
-            var json = JsonUtility.FromJson<ChatGPTResponseWrapper>(result);
+            Debug.Log("응답 수신: " + request.downloadHandler.text);
+            var json = JsonUtility.FromJson<ChatGPTResponseWrapper>(request.downloadHandler.text);
             responseText.text = json.choices[0].message.content.Trim();
         }
+
+        isWaitingForResponse = false;
     }
 
-    [System.Serializable]
+
+
+[System.Serializable]
     public class ChatGPTResponseWrapper
     {
         public Choice[] choices;

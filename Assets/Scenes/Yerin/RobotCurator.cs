@@ -19,15 +19,29 @@ public class RobotCurator : MonoBehaviour
         {
             SubmitQuestion();
         }
+        if (dialogueUI.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+        {
+            dialogueUI.SetActive(false);
+        }
     }
 
     public void Interact()
     {
-        dialogueUI.SetActive(true);
+        bool isActive = dialogueUI.activeSelf;
+        dialogueUI.SetActive(!isActive);
     }
 
     public void SubmitQuestion()
     {
-        gptConnector.SendToChatGPT();
+        string prompt = inputField.text.Trim();
+
+        if (string.IsNullOrEmpty(prompt)) return;
+
+        gptConnector.SendToChatGPT(); ;
+        inputField.text = "";
+        inputField.ActivateInputField();  // 커서 다시 활성화 (선택)
     }
+
+
+
 }
