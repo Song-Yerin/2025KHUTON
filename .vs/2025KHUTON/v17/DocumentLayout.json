@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\seasoninfopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\imageeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\imageeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A3FE7C8-EDA6-7AAC-14B5-73C46FCA6B03}|Assembly-CSharp-firstpass.csproj|D:\\Github\\2025KHUTON\\assets\\plugins\\circularscrollinglist\\scripts\\circularscrollinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A3FE7C8-EDA6-7AAC-14B5-73C46FCA6B03}|Assembly-CSharp-firstpass.csproj|solutionrelative:assets\\plugins\\circularscrollinglist\\scripts\\circularscrollinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageEffect.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\ImageEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\Jiseon\\ImageEffect.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\ImageEffect.cs",
+              "RelativeToolTip": "Assets\\Jiseon\\ImageEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T22:04:09.306Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,14 +57,14 @@
               "RelativeDocumentMoniker": "Assets\\Jiseon\\SeasonInfoPanel.cs",
               "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\SeasonInfoPanel.cs",
               "RelativeToolTip": "Assets\\Jiseon\\SeasonInfoPanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T20:18:28.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CircularScrollingList.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Plugins\\CircularScrollingList\\Scripts\\CircularScrollingList.cs",
               "RelativeDocumentMoniker": "Assets\\Plugins\\CircularScrollingList\\Scripts\\CircularScrollingList.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Soon\\Script\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Soon\\Script\\CharacterMovement.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RegionInfoPanel.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\RegionInfoPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Jiseon\\RegionInfoPanel.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HoverOutline.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\HoverOutline.cs",
               "RelativeDocumentMoniker": "Assets\\Jiseon\\HoverOutline.cs",

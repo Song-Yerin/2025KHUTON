@@ -39,7 +39,9 @@ public class SeasonInfoPanel : MonoBehaviour
         images["우수"] = usuImage;
         //videos["입춘"] = ipchunVideo;
         //videos["우수"] = usuVideo;
+        ShowSeasonInfo("입춘"); // 처음 시작 시 자동으로 입춘 정보 표시
     }
+    
 
     public void ShowSeasonInfo(string seasonKey)
     {
