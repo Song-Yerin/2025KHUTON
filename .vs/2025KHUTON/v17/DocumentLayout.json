@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Github\\2025KHUTON\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\display_24info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\display_24info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\seasoninfopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\seasoninfopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\hoveroutline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\hoveroutline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeasonInfoPanel.cs",
-              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\SeasonInfoPanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Jiseon\\SeasonInfoPanel.cs",
-              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\SeasonInfoPanel.cs",
-              "RelativeToolTip": "Assets\\Jiseon\\SeasonInfoPanel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvyEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:12:37.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "display_24info.cs",
-              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\display_24info.cs",
-              "RelativeDocumentMoniker": "Assets\\Jiseon\\display_24info.cs",
-              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\display_24info.cs",
-              "RelativeToolTip": "Assets\\Jiseon\\display_24info.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Title": "HoverOutline.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\HoverOutline.cs",
+              "RelativeDocumentMoniker": "Assets\\Jiseon\\HoverOutline.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\HoverOutline.cs",
+              "RelativeToolTip": "Assets\\Jiseon\\HoverOutline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:53:01.269Z",
+              "WhenOpened": "2025-05-09T15:27:59.96Z",
               "EditorCaption": ""
             }
           ]
