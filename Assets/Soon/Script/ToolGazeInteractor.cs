@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.UI;
 
 public class ToolGazeInteractor : MonoBehaviour
 {
@@ -21,6 +22,9 @@ public class ToolGazeInteractor : MonoBehaviour
     [Header("Tools (Inspector에 전부 드래그)")]
     public List<Interactable> allTools;
 
+    public Image FKey;
+    public Image RKey;
+
     // 런타임 상태
     Interactable currentTool;
     bool inDetailView = false;
@@ -36,6 +40,8 @@ public class ToolGazeInteractor : MonoBehaviour
     {
         camOrigRot = Camera.main.transform.rotation;
         detailVcam.Priority = mainVcam.Priority - 1;
+        FKey.gameObject.SetActive(false);
+        RKey.gameObject.SetActive(false);
     }
 
     void Update()
@@ -44,13 +50,15 @@ public class ToolGazeInteractor : MonoBehaviour
         {
             CheckCenterGaze();
             if (currentTool != null && Input.GetKeyDown(KeyCode.F))
+            {
                 EnterDetailView(currentTool);
+                FKey.gameObject.SetActive(false);
+            }
+            
         }
         else
         {
             // R 키 → 체험하기
-            if (currentTool != null && Input.GetKeyDown(KeyCode.R))
-                TryExperience(currentTool);
 
             // Q 키 → 디테일 나가기
             if (Input.GetKeyDown(KeyCode.Q))
@@ -65,12 +73,18 @@ public class ToolGazeInteractor : MonoBehaviour
             && hit.collider.CompareTag(interactTag))
         {
             currentTool = hit.collider.GetComponent<Interactable>();
+            FKey.gameObject.SetActive(true);
         }
-        else currentTool = null;
+        else
+        {
+            currentTool = null;
+            FKey.gameObject.SetActive(false);
+        }
     }
 
     void EnterDetailView(Interactable tool)
     {
+        RKey.gameObject.SetActive(true);
         inDetailView = true;
         playerMovement.enabled = false;
         playerOrigRot = player.rotation;
