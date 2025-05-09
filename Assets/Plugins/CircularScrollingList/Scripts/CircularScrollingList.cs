@@ -497,7 +497,7 @@ namespace AirFishLab.ScrollingList
 
             if (!_listMovementProcessor.IsMovementEnded())
                 return;
-
+            GetFocusingContentID();
             _listSetting.OnMovementEnd.Invoke();
             _isMoving = false;
         }

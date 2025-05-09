@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "D:\\Github\\2025KHUTON\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\jiseon_scripts\\wheelrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\display_24info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\display_24info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\myintlistbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\myintlistbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3FE7C8-EDA6-7AAC-14B5-73C46FCA6B03}|Assembly-CSharp-firstpass.csproj|D:\\Github\\2025KHUTON\\assets\\plugins\\circularscrollinglist\\scripts\\liststateprocessing\\linear\\listboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3FE7C8-EDA6-7AAC-14B5-73C46FCA6B03}|Assembly-CSharp-firstpass.csproj|solutionrelative:assets\\plugins\\circularscrollinglist\\scripts\\liststateprocessing\\linear\\listboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3FE7C8-EDA6-7AAC-14B5-73C46FCA6B03}|Assembly-CSharp-firstpass.csproj|D:\\Github\\2025KHUTON\\assets\\plugins\\circularscrollinglist\\scripts\\circularscrollinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3FE7C8-EDA6-7AAC-14B5-73C46FCA6B03}|Assembly-CSharp-firstpass.csproj|solutionrelative:assets\\plugins\\circularscrollinglist\\scripts\\circularscrollinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|D:\\Github\\2025KHUTON\\assets\\jiseon\\jiseon_scripts\\wheelrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\jiseon_scripts\\wheelrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|d:\\github\\2025khuton\\assets\\jiseon\\jiseon_scripts\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|D:\\Github\\2025KHUTON\\assets\\jiseon\\jiseon_scripts\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1920E0BD-983A-84BF-E83F-D9DA172BB6C5}|Assembly-CSharp.csproj|solutionrelative:assets\\jiseon\\jiseon_scripts\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,19 +59,68 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WheelRotator.cs",
-              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
-              "RelativeDocumentMoniker": "Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
-              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
-              "RelativeToolTip": "Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Title": "display_24info.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\display_24info.cs",
+              "RelativeDocumentMoniker": "Assets\\Jiseon\\display_24info.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\display_24info.cs",
+              "RelativeToolTip": "Assets\\Jiseon\\display_24info.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T11:39:46.539Z",
+              "WhenOpened": "2025-05-09T13:53:01.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MyIntListBank.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\MyIntListBank.cs",
+              "RelativeDocumentMoniker": "Assets\\Jiseon\\MyIntListBank.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\MyIntListBank.cs",
+              "RelativeToolTip": "Assets\\Jiseon\\MyIntListBank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:34:26.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListBoxController.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Plugins\\CircularScrollingList\\Scripts\\ListStateProcessing\\Linear\\ListBoxController.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\CircularScrollingList\\Scripts\\ListStateProcessing\\Linear\\ListBoxController.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Plugins\\CircularScrollingList\\Scripts\\ListStateProcessing\\Linear\\ListBoxController.cs",
+              "RelativeToolTip": "Assets\\Plugins\\CircularScrollingList\\Scripts\\ListStateProcessing\\Linear\\ListBoxController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAIwLoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:32:09.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CircularScrollingList.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Plugins\\CircularScrollingList\\Scripts\\CircularScrollingList.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\CircularScrollingList\\Scripts\\CircularScrollingList.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Plugins\\CircularScrollingList\\Scripts\\CircularScrollingList.cs",
+              "RelativeToolTip": "Assets\\Plugins\\CircularScrollingList\\Scripts\\CircularScrollingList.cs",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAAAJsBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:28:52.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WheelRotator.cs",
+              "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
+              "RelativeDocumentMoniker": "Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
+              "ToolTip": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
+              "RelativeToolTip": "Assets\\Jiseon\\jiseon_Scripts\\WheelRotator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T11:39:46.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "cam.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\cam.cs",
               "RelativeDocumentMoniker": "Assets\\Jiseon\\jiseon_Scripts\\cam.cs",
@@ -63,12 +128,11 @@
               "RelativeToolTip": "Assets\\Jiseon\\jiseon_Scripts\\cam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T11:36:11.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T11:36:11.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CameraRotation.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\CameraRotation.cs",
               "RelativeDocumentMoniker": "Assets\\CameraRotation.cs",
@@ -80,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SeasonTrigger.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Jiseon\\jiseon_Scripts\\SeasonTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Jiseon\\jiseon_Scripts\\SeasonTrigger.cs",
@@ -92,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ChatGPTConnector.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Yerin\\ChatGPTConnector.cs",
@@ -104,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "CuratorTrigger.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\CuratorTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Yerin\\CuratorTrigger.cs",
@@ -116,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "RobotCurator.cs",
               "DocumentMoniker": "D:\\Github\\2025KHUTON\\Assets\\Scenes\\Yerin\\RobotCurator.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Yerin\\RobotCurator.cs",
