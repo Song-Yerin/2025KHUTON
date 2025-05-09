@@ -11,8 +11,10 @@ public class SceneChanger : MonoBehaviour
         if (other.CompareTag("Player") && !hasLoaded)
         {
             hasLoaded = true;
-            DontDestroyOnLoad(GameObject.FindWithTag("Player"));
-            DontDestroyOnLoad(GameObject.Find("ModularRobots")); // 또는 정확한 이름
+
+            DontDestroyOnLoad(GameObject.FindWithTag("Player")); // 플레이어 유지만 하면 됨
+            // ModularRobots는 이제 스스로 DontDestroyOnLoad 처리함 (싱글톤 내부)
+
             SceneManager.sceneLoaded += OnSceneLoaded;
             SceneManager.LoadScene(targetSceneName);
         }
@@ -22,10 +24,10 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
 
-        GameObject robot = GameObject.Find("ModularRobots"); // 씬 전환 후 새로 참조
+        GameObject robot = GameObject.Find("ModularRobots");
         if (robot != null)
         {
-            robot.transform.position = new Vector3(0, 0, 0);
+            robot.transform.position = new Vector3(0, 0, 0); // 새 씬 내 위치 재지정
         }
     }
 }
